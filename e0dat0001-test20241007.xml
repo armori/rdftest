@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <dcat:Dataset rdf:about="https://demo.datos.gob.es/catalogo/e0dat0001-test20241007">
+    <dct:license rdf:resource="http://google.com"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+    <dct:publisher>
+      <skos:Concept rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001">
+        <skos:notation>E0DAT0001</skos:notation>
+        <skos:prefLabel>Coordinacion Iniciativa Aporta</skos:prefLabel>
+      </skos:Concept>
+    </dct:publisher>
+    <dct:title xml:lang="es">test20241007</dct:title>
+    <dct:description xml:lang="es">test</dct:description>
+    <dct:identifier>https://test_1.8.24_000.com/identificador</dct:identifier>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://demo.datos.gob.es/catalogo/e0dat0001-test20241007/resource/b4d7ba21-5760-4773-936d-f8480586d45b">
+        <dcat:accessURL>https://test_1.8.24_000.com/identificador</dcat:accessURL>
+        <dct:identifier>https://test_1.8.24_000.com/identificador</dct:identifier>
+        <dct:format rdf:resource="https://demo.datos.gob.es/catalogo/e0dat0001-test20241007/resource/b4d7ba21-5760-4773-936d-f8480586d45b/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+  <dct:IMT rdf:about="https://demo.datos.gob.es/catalogo/e0dat0001-test20241007/resource/b4d7ba21-5760-4773-936d-f8480586d45b/format">
+    <rdfs:label>API</rdfs:label>
+    <rdf:value>application/api</rdf:value>
+  </dct:IMT>
+</rdf:RDF>
