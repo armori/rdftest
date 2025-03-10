@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY time 'http://www.w3.org/2006/time#'>
+	<!ENTITY dct 'http://purl.org/dc/terms/'>
+	<!ENTITY skos 'http://www.w3.org/2004/02/skos/core#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY foaf 'http://xmlns.com/foaf/0.1/'>
+	<!ENTITY dcat 'http://www.w3.org/ns/dcat#'>
+	<!ENTITY tema 'http://datos.gob.es/kos/sector-publico/sector/'>
+	<!ENTITY frecuencia 'http://datos.gob.es/kos/util/frecuencia/'>
+	<!ENTITY auto 'http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/'>
+]>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:time="http://www.w3.org/2006/time#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:tema="http://datos.gob.es/kos/sector-publico/sector/"
+	xmlns:frecuencia="http://datos.gob.es/kos/util/frecuencia/"
+	xmlns:auto="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<dcat:Catalog dct:identifier="https://datosabiertos.jcyl.es/web/es/catalogo-datos.html"
+		dct:language="es" rdf:about="https://datosabiertos.jcyl.es/web/es/catalogo-datos.html">
+		<foaf:homepage rdf:resource="http://www.datosabiertos.jcyl.es" />
+		<dct:publisher
+			rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A07002862" />
+		<dct:spatial
+			rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
+		<dct:title xml:lang="es">Catálogo de datos abiertos de la Junta de Castilla y León</dct:title>
+		<dct:description xml:lang="es">Catálogo de datos públicos abiertos de la Junta de Castilla y
+			León, que se ofrecen en www.datosabiertos.jcyl.es</dct:description>
+		<dct:license
+			rdf:resource="https://datosabiertos.jcyl.es/web/es/catalogo-datos/terminos.html" />
+		<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-03-27T00:00:00</dct:issued>
+		<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-10T04:31:49</dct:modified>
+		<dc:language>es</dc:language>
+		<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector/" />
+		<dcat:dataset>
+			<dcat:Dataset
+				rdf:about="https://datosabiertos.jcyl.es/web/jcyl/set/es/economia/establecimientos-comerciales/1285142020827"
+				dct:identifier="https://datosabiertos.jcyl.es/web/jcyl/set/es/economia/establecimientos-comerciales/1285142020827">
+				<dct:title xml:lang="es">Establecimientos comerciales en Castilla y León</dct:title>
+				<dct:description xml:lang="es">Relación de establecimientos comerciales situados en
+					Castilla y León.
+
+					La información se presenta organizada en los siguientes campos: número de
+					registro de actividad, titular, nombre comercial, dirección código postal,
+					población, municipio, provincia, código de provincia, código de municipio,
+					código de población, C.N.A.E., sector comercial, teléfono, móvil, correo
+					electrónico, página web, latitud, longitud, posición geométrica y número de
+					habitantes.</dct:description>
+				<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia" />
+				<dcat:keyword xml:lang="es">comercio</dcat:keyword>
+				<dcat:keyword xml:lang="es"> establecimientos comerciales</dcat:keyword>
+				<dct:language>es</dct:language>
+				<dct:publisher
+					rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A07002862" />
+				<dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.es_ES" />
+				<dcat:distribution>
+					<dcat:Distribution
+						rdf:about="https://datosabiertos.jcyl.es/web/jcyl/risp/es/economia/establecimientos-comerciales/1285142020827.csv">
+						<dct:title xml:lang="es">Establecimientos comerciales en Castilla y León</dct:title>
+						<dct:format>
+							<dct:IMT rdf:value="text/csv" rdfs:label="CSV" />
+						</dct:format>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">
+							https://datosabiertos.jcyl.es/web/jcyl/risp/es/economia/establecimientos-comerciales/1285142020827.csv</dcat:accessURL>
+					</dcat:Distribution>
+				</dcat:distribution>
+				<dcat:distribution>
+					<dcat:Distribution
+						rdf:about="https://datosabiertos.jcyl.es/web/jcyl/risp/es/economia/establecimientos-comerciales/1285142020827.json">
+						<dct:title xml:lang="es">Establecimientos comerciales en Castilla y León</dct:title>
+						<dct:format>
+							<dct:IMT rdf:value="application/json" rdfs:label="JSON" />
+						</dct:format>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">
+							https://datosabiertos.jcyl.es/web/jcyl/risp/es/economia/establecimientos-comerciales/1285142020827.json</dcat:accessURL>
+					</dcat:Distribution>
+				</dcat:distribution>
+				<dct:accrualPeriodicity>
+					<dct:Frequency>
+						<rdf:value>
+							<time:DurationDescription>
+								<time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:days>
+							</time:DurationDescription>
+						</rdf:value>
+					</dct:Frequency>
+				</dct:accrualPeriodicity>
+				<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-01T00:00:00</dct:issued>
+				<dct:spatial
+					rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon" />
+			</dcat:Dataset>
+		</dcat:dataset>
+	</dcat:Catalog>
+</rdf:RDF>
+	
