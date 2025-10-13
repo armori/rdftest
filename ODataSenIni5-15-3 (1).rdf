@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:time="http://www.w3.org/2006/time#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:tema="http://datos.gob.es/kos/sector-publico/sector/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<dcat:Catalog rdf:about="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html">
+		<dct:identifier>https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html</dct:identifier>
+		<dct:title xml:lang="es">Catálogo de Iniciativas Legislativas del Senado</dct:title>
+		<dct:description xml:lang="es">Catálogo de Iniciativas Legislativas del Senado</dct:description>
+		<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000061"/>
+		<dct:extent>
+			<dct:SizeOrDuration>
+				<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</rdf:value>
+				<rdfs:label xml:lang="es">Once distribuciones fuentes de datos</rdfs:label>
+			</dct:SizeOrDuration>
+		</dct:extent>
+		<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-06-29T00:00:00</dct:issued>
+		<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-02T00:00:00</dct:modified>
+		<dc:language>es</dc:language>
+		<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+		<dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+		<foaf:homepage rdf:resource="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html"/>
+		<dct:license rdf:resource="https://www.senado.es/web/avisojuridico/index.html"/>
+		<dcat:dataset>
+			<dcat:Dataset rdf:about="https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/iniciativas/index.html">
+				<dct:identifier>https://www.senado.es/web/relacionesciudadanos/datosabiertos/catalogodatos/index.html</dct:identifier>
+				<dct:title xml:lang="es">Lista de Iniciativas Legislativas (Legislaturas V-XV)</dct:title>
+				<dct:description xml:lang="es">El conjunto de datos de iniciativas legislativas del Senado proporciona información detallada sobre las propuestas y proyectos de ley en curso o ya cursadas. Sólo se incluyen las iniciativas desde la V Legislatura (29 de Junio de 1993)</dct:description>
+				<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia"/>
+				<dcat:keyword>legislación</dcat:keyword>
+				<dcat:keyword>iniciativas legislativas</dcat:keyword>
+				<dcat:keyword>legislaturas</dcat:keyword>
+				<dcat:keyword>senado</dcat:keyword>
+				<dcat:keyword>parlamento</dcat:keyword>
+				<dcat:keyword>procedimientos parlamentarios</dcat:keyword>
+				<dcat:keyword>datos abiertos</dcat:keyword>
+				<dcat:keyword>gobierno abierto</dcat:keyword>
+				<dcat:keyword>transparencia</dcat:keyword>
+				<dcat:keyword>XML</dcat:keyword>
+				<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-06-29T00:00:00</dct:issued>
+				<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T00:00:00</dct:modified>
+				<dct:accrualPeriodicity>
+					<dct:Frequency>
+						<rdf:value>
+							<time:DurationDescription>
+								<!--experimento-->
+								<rdfs:label>semanal</rdfs:label>
+								<time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</time:weeks>
+							</time:DurationDescription>
+						</rdf:value>
+					</dct:Frequency>
+				</dct:accrualPeriodicity>
+				<dc:language>es</dc:language>
+				<dct:language>es</dct:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000061"/>
+				<dct:license rdf:resource="https://www.senado.es/web/avisojuridico/index.html"/>
+				<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+				<dct:temporal>
+					<time:Interval>
+						<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+						<time:hasBeginning>
+							<time:Instant>
+								<time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-06-29T00:00:00</time:inXSDDateTime>
+							</time:Instant>
+						</time:hasBeginning>
+					</time:Interval>
+				</dct:temporal>
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la V Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=5#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>				
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la VI Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=6#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>				
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la VII Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=7#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>												
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la VIII Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=8#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>								
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la IX Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=9#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>																
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la X Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=10#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>												
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la XI Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=11#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>								
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la XII Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=12#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>				
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la XIII Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=13#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la XIV Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=14#</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>
+				<dcat:distribution>
+					<dcat:Distribution>
+						<!-- <dct:identifier>http://senado/DetIniciativas1415</dct:identifier> -->
+						<dct:title xml:lang="es">Lista de Iniciativas Legislativas de la XV Legislatura</dct:title>
+						<dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.senado.es/web/ficopendataservlet?tipoFich=9&amp;legis=15</dcat:accessURL>
+						<dct:format>
+							<dct:IMT>
+								<rdf:value>application/xml</rdf:value>
+								<rdfs:label>XML</rdfs:label>
+							</dct:IMT>
+						</dct:format>
+					</dcat:Distribution>
+				</dcat:distribution>
+				
+			</dcat:Dataset>
+		</dcat:dataset>
+	</dcat:Catalog>
+</rdf:RDF>
