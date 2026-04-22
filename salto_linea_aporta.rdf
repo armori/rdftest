@@ -28,7 +28,6 @@
     <dct:conformsTo rdf:resource="http://data.europa.eu/r5r/"/>
     <dct:title xml:lang="es">Test Coordinación Iniciativa Aporta</dct:title>
     <dct:description xml:lang="es">Lorem ipsum dolor sit amet, \consectetur adipiscing elit. \\Curabitur sit amet lorem eget lacus porta viverra. Fusce sagittis malesuada justo, eget tincidunt quam consectetur sed. Donec porttitor dolor mollis sapien congue, sit amet dapibus libero iaculis. Nullam id odio luctus, sodales risus ut, convallis erat. In eu pretium lectus, vitae porttitor lorem. Quisque dapibus ultrices felis, pellentesque finibus libero rutrum et. Fusce ornare, quam id euismod maximus, nunc sapien blandit massa, at faucibus dui libero non mi. Donec condimentum arcu quis sem tristique, et sollicitudin orci interdum. Pellentesque cursus, risus eu commodo dignissim, neque ligula fringilla dolor, pellentesque pulvinar turpis diam nec tortor. Proin volutpat, mauris in laoreet rutrum, metus leo consectetur urna, varius eleifend felis nibh et dolor. Cras eros sapien, malesuada a sollicitudin ac, sagittis ac eros.</dct:description>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T11:58:41+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T11:58:41+00:00</dct:issued>
     <dct:publisher>
       <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E0DAT0001">
@@ -47,9 +46,6 @@
         <adms:versionNotes xml:lang="es">1.1.0 y superiores</adms:versionNotes>
         <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
         <dcat:keyword xml:lang="es">1.3.0</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
         <dct:conformsTo rdf:resource="http://data.europa.eu/930/"/>
         <dct:conformsTo rdf:resource="http://www.opengis.net/def/crs/EPSG/0/4258"/>
         <dct:isReferencedBy rdf:resource="https://www.mapama.gob.es/ide/metadatos/srv/spa/csw?service=CSW&amp;version=2.0.2&amp;request=GetRecordById&amp;id=0255a82f-5837-4c78-a05f-ffc19a864ddb&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;OutputFormat=application/xml"/>
@@ -76,7 +72,6 @@
             <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
             <dcat:accessURL rdf:resource="https://test.datos.gob.es/pruebasaltodelinea"/>
             <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
             <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
             <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/l/2007/11/16/37/con"/>
             <dcat:byteSize>3180581</dcat:byteSize>
