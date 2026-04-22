@@ -27,7 +27,7 @@
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dct:conformsTo rdf:resource="http://data.europa.eu/r5r/"/>
     <dct:title xml:lang="es">Test Coordinación Iniciativa Aporta</dct:title>
-    <dct:description xml:lang="es">Test Coordinación Iniciativa Aporta</dct:description>
+    <dct:description xml:lang="es">Lorem ipsum dolor sit amet, \consectetur adipiscing elit. \\Curabitur sit amet lorem eget lacus porta viverra. Fusce sagittis malesuada justo, eget tincidunt quam consectetur sed. Donec porttitor dolor mollis sapien congue, sit amet dapibus libero iaculis. Nullam id odio luctus, sodales risus ut, convallis erat. In eu pretium lectus, vitae porttitor lorem. Quisque dapibus ultrices felis, pellentesque finibus libero rutrum et. Fusce ornare, quam id euismod maximus, nunc sapien blandit massa, at faucibus dui libero non mi. Donec condimentum arcu quis sem tristique, et sollicitudin orci interdum. Pellentesque cursus, risus eu commodo dignissim, neque ligula fringilla dolor, pellentesque pulvinar turpis diam nec tortor. Proin volutpat, mauris in laoreet rutrum, metus leo consectetur urna, varius eleifend felis nibh et dolor. Cras eros sapien, malesuada a sollicitudin ac, sagittis ac eros.</dct:description>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T11:58:41+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-14T11:58:41+00:00</dct:issued>
     <dct:publisher>
@@ -42,9 +42,7 @@
       <dcat:Dataset rdf:about="https://test.datos.gob.es/">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
         <dct:title xml:lang="es">Test salto de línea</dct:title>
-        <dct:description xml:lang="es">Lorem ipsum dolor sit amet, \consectetur adipiscing elit. \\Curabitur sit amet lorem eget lacus porta viverra. Fusce sagittis malesuada justo, eget tincidunt quam consectetur sed. Donec porttitor dolor mollis sapien congue, sit amet dapibus libero iaculis. Nullam id odio luctus, sodales risus ut, convallis erat. In eu pretium lectus, vitae porttitor lorem. Quisque dapibus ultrices felis, pellentesque finibus libero rutrum et. Fusce ornare, quam id euismod maximus, nunc sapien blandit massa, at faucibus dui libero non mi. Donec condimentum arcu quis sem tristique, et sollicitudin orci interdum. Pellentesque cursus, risus eu commodo dignissim, neque ligula fringilla dolor, pellentesque pulvinar turpis diam nec tortor. Proin volutpat, mauris in laoreet rutrum, metus leo consectetur urna, varius eleifend felis nibh et dolor. Cras eros sapien, malesuada a sollicitudin ac, sagittis ac eros.
-
-</dct:description>
+        <dct:description xml:lang="es">Lorem ipsum dolor sit amet, \consectetur adipiscing elit. \\Curabitur sit amet lorem eget lacus porta viverra. Fusce sagittis malesuada justo, eget tincidunt quam consectetur sed. Donec porttitor dolor mollis sapien congue, sit amet dapibus libero iaculis. Nullam id odio luctus, sodales risus ut, convallis erat. In eu pretium lectus, vitae porttitor lorem. Quisque dapibus ultrices felis, pellentesque finibus libero rutrum et. Fusce ornare, quam id euismod maximus, nunc sapien blandit massa, at faucibus dui libero non mi. Donec condimentum arcu quis sem tristique, et sollicitudin orci interdum. Pellentesque cursus, risus eu commodo dignissim, neque ligula fringilla dolor, pellentesque pulvinar turpis diam nec tortor. Proin volutpat, mauris in laoreet rutrum, metus leo consectetur urna, varius eleifend felis nibh et dolor. Cras eros sapien, malesuada a sollicitudin ac, sagittis ac eros.</dct:description>
         <dct:identifier>0255a82f-5837-4c78-a05f-ffc19a864ddb</dct:identifier>
         <adms:versionNotes xml:lang="es">1.1.0 y superiores</adms:versionNotes>
         <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
@@ -71,6 +69,21 @@
         <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
         <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
         <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="https://test.datos.gob.es/pruebasaltodelinea">
+            <dct:title xml:lang="es">Test salto de línea</dct:title>
+            <dct:description xml:lang="es">Lorem ipsum dolor sit amet, \consectetur adipiscing elit. \\Curabitur sit amet lorem eget lacus porta viverra. Fusce sagittis malesuada justo, eget tincidunt quam consectetur sed. Donec porttitor dolor mollis sapien congue, sit amet dapibus libero iaculis. Nullam id odio luctus, sodales risus ut, convallis erat. In eu pretium lectus, vitae porttitor lorem. Quisque dapibus ultrices felis, pellentesque finibus libero rutrum et. Fusce ornare, quam id euismod maximus, nunc sapien blandit massa, at faucibus dui libero non mi. Donec condimentum arcu quis sem tristique, et sollicitudin orci interdum. Pellentesque cursus, risus eu commodo dignissim, neque ligula fringilla dolor, pellentesque pulvinar turpis diam nec tortor. Proin volutpat, mauris in laoreet rutrum, metus leo consectetur urna, varius eleifend felis nibh et dolor. Cras eros sapien, malesuada a sollicitudin ac, sagittis ac eros.</dct:description>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://test.datos.gob.es/pruebasaltodelinea"/>
+            <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2019/1024/oj"/>
+            <dcatap:applicableLegislation rdf:resource="https://www.boe.es/eli/es/l/2007/11/16/37/con"/>
+            <dcat:byteSize>3180581</dcat:byteSize>
+            <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-17T10:31:29.075857Z</dct:modified>
+            <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+          </dcat:Distribution>
+        </dcat:distribution>
       </dcat:Dataset>
     </dcat:dataset>
 </rdf:RDF>
