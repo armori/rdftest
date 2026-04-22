@@ -86,4 +86,5 @@
         </dcat:distribution>
       </dcat:Dataset>
     </dcat:dataset>
+  </dcat:Catalog>
 </rdf:RDF>
