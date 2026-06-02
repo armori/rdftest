@@ -28,7 +28,7 @@
     dct:title "Catálogo de Observatorio de Ocupaciones"@es ;
     dct:description "Catálogo del Observatorio de Ocupaciones. Repositorio central de información analítica del mercado laboral, demanda de empleo, contratación, ofertas, prestaciones y afiliación a la Seguridad Social"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:issued "2026-02-25"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
     foaf:homepage <https://datos.gob.es/es/catalogo/conjuntos-datos?publisher_display_name=Servicio+P%C3%BAblico+de+Empleo+Estatal> ;
@@ -54,7 +54,7 @@
     dct:title "Demandantes de empleo por municipio"@es ;
     dct:description "Datos estadísticos del SEPE sobre Demandantes de Empleo registrados, desagregados por municipio, sexo, edad y sector de actividad económica."@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -146,7 +146,7 @@
     dct:title "Contratos registrados por municipio"@es ;
     dct:description "Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica."@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -238,7 +238,7 @@
     dct:title "Paro Registrado por municipio"@es ;
     dct:description "Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica."@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -328,7 +328,7 @@
     dct:title "Gasto en prestaciones por desempleo"@es ;
     dct:description "Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -394,7 +394,7 @@
     dct:title "Demandantes de empleo por nivel formativo"@es ;
     dct:description "Paro registrado con desglose por Nivel formativo, Sexo, nacionalidad y antigüedad de la demanda"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -425,7 +425,7 @@
     dct:title "Demandantes de empleo por actividad económica"@es ;
     dct:description "Demandantes parados por actividades economicas, sexo, tramos de edad, antigüedad y tiempo de inscripcion"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -456,7 +456,7 @@
     dct:title "Contratos registrados por nivel formativo"@es ;
     dct:description "Contratos registrados con desglose por nivel formativo, sexo, pais de nacionalidad, tipologia de contrato y jornada"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
@@ -487,7 +487,7 @@
     dct:title "Contratos registrados por actividad economica"@es ;
     dct:description "Contratos registrados con desglose de actividades economicas, sexo, nacionalidad, tipo de contrato y jornada"@es ;
     dct:publisher <http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513> ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/es> ;
+    dct:language "es" ;
     dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
     dct:issued "2026-05-28"^^xsd:date ;
     dct:modified "2026-05-28"^^xsd:date ;
