@@ -22,7 +22,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-paro-registrado-por-municipios">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-paro-registrado-por-municipios</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-paro-registrado-por-municipios"/>
     <dct:title xml:lang="es">Paro Registrado por municipio</dct:title>
     <dct:description xml:lang="es">Datos estadísticos del SEPE sobre Paro Registrado, desagregados por municipio, sexo, edad y sector de actividad económica.</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -150,7 +150,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-municipios">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-contratos-por-municipios</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-municipios"/>
     <dct:title xml:lang="es">Contratos registrados por municipio</dct:title>
     <dct:description xml:lang="es">Datos estadísticos del SEPE sobre Contratos registrados, desagregados por municipio, sexo, tipo de contrato y sector de actividad económica.</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -241,7 +241,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-gasto-en-prestaciones">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-gasto-en-prestaciones</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-gasto-en-prestaciones"/>
     <dct:title xml:lang="es">Gasto en prestaciones por desempleo</dct:title>
     <dct:description xml:lang="es">Datos estadísticos del SEPE sobre Gasto en Prestaciones por Desempleo, desagregados por provincia y tipo de prestación</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -366,7 +366,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-nivel-formativo"/>
     <dct:title xml:lang="es">Contratos registrados por nivel formativo</dct:title>
     <dct:description xml:lang="es">Contratos registrados con desglose por nivel formativo, sexo, pais de nacionalidad, tipologia de contrato y jornada</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -1610,7 +1610,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-nivel-formativo"/>
     <dct:title xml:lang="es">Demandantes de empleo por nivel formativo</dct:title>
     <dct:description xml:lang="es">Paro registrado con desglose por Nivel formativo, Sexo, nacionalidad y antigüedad de la demanda</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -1629,7 +1629,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-municipios">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-municipios</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-municipios"/>
     <dct:title xml:lang="es">Demandantes de empleo por municipio</dct:title>
     <dct:description xml:lang="es">Datos estadísticos del SEPE sobre Demandantes de Empleo registrados, desagregados por municipio, sexo, edad y sector de actividad económica.</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -2739,7 +2739,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-demandantes-de-empleo-por-actividad-economica"/>
     <dct:title xml:lang="es">Demandantes de empleo por actividad económica</dct:title>
     <dct:description xml:lang="es">Demandantes parados por actividades economicas, sexo, tramos de edad, antigüedad y tiempo de inscripcion</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
@@ -3202,7 +3202,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica">
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:identifier>https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica</dct:identifier>
+    <dct:identifier rdf:resource="https://datos.gob.es/es/catalogo/ea0041513-contratos-por-actividad-economica"/>
     <dct:title xml:lang="es">Contratos registrados por actividad economica</dct:title>
     <dct:description xml:lang="es">Contratos registrados con desglose de actividades economicas, sexo, nacionalidad, tipo de contrato y jornada</dct:description>
     <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0041513"/>
